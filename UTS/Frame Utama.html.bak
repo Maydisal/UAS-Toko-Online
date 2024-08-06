@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bagian Utama</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Selamat Datang di Toko Obat Psikologi!</h1>
+    </div>
+    
+    <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="transaksi.html">Transaksi</a>
+	<a href="invoice.html">Invoice</a>
+    <a href="about-contact.html">Tentang & Kontak Kami</a>
+	</div>
+
+
+    <div class="content">
+        <h3>Petunjuk: Silahkan mengklik gambar produk yang Anda minati. Selanjutnya Anda akan diarahkan ke halaman transaksi.</h3>
+        <br>
+
+        <table border="1">
+            <tr><th colspan="2">NAMA PRODUK</th></tr>
+            <tr>
+                <td class="produk-item">
+                    <a href="transaksi.html?product=Kapsul"><img src="kapsul.png" width="125" height="125" alt="Kapsul"></a>
+                </td>
+                <td class="produk-item">
+                    <a href="transaksi.html?product=Cair"><img src="cair.png" width="125" height="125" alt="Cair"></a>
+                </td>
+            </tr>
+            <tr>
+                <td class="produk-item">
+                    <a href="transaksi.html?product=Pil"><img src="pil.png" width="125" height="125" alt="Pil"></a>
+                </td>
+                <td class="produk-item">
+                    <a href="transaksi.html?product=Suplemen"><img src="spl.png" width="125" height="125" alt="Suplemen"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>PT. IndoPal all rights reserved©</p>
+    </div>
+</body>
+</html>

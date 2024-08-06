@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Side Bar </title>
+</head>
+<body>
+<a href="Isi.html" target="isi"> Halaman Utama </a><br>
+<a href="About.html" target="isi"> Tentang Kami</a><br>
+</body>
+</html>
