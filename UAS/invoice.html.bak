@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Struk/Invoice</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Struk/Invoice</h1>
+    </div>
+
+    <div class="content">
+        <div class="invoice-item">
+            <h2>Invoice</h2>
+            <p>Nama: <span id="invoiceName"></span></p>
+            <p>Alamat: <span id="invoiceAddress"></span></p>
+            <p>Produk/Jasa: <span id="invoiceProduct"></span></p>
+            <p>Jumlah: <span id="invoiceQuantity"></span></p>
+            <p>Metode Pembayaran: <span id="invoicePayment"></span></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>PT. IndoPal all rights reserved©</p>
+    </div>
+</body>
+</html>

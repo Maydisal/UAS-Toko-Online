@@ -15,12 +15,12 @@
             <p>PT. IndoPal adalah perusahaan yang bergerak di bidang distribusi obat-obatan psikologi. Kami berkomitmen untuk menyediakan produk berkualitas tinggi dan layanan terbaik bagi pelanggan kami.</p>
         </div>
         
-        <div class="contact">
+        <div class="about">
             <h2>Kontak Kami</h2>
-            <p>Nama: [Nama Anda]</p>
-            <p>NIM: [NIM Anda]</p>
-            <p>Kelas: [Kelas Anda]</p>
-            <p>Email: [Email Anda]</p>
+			<a><img src="profil.jpg" width="200" height="300" alt="Profil"></a>
+            <p>Nama: Maydisal Andhika Pujangkara</p>
+            <p>NIM: 10520106</p>
+            <p>Kelas: IS3/2020</p>
         </div>
     </div>
 

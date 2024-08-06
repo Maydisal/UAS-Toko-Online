@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Struk/Invoice</title>
+    <title>Invoice</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function getQueryParams() {
+            const params = {};
+            const queryString = window.location.search.slice(1);
+            const pairs = queryString.split('&');
+            pairs.forEach(pair => {
+                const [key, value] = pair.split('=');
+                params[decodeURIComponent(key)] = decodeURIComponent(value);
+            });
+            return params;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = getQueryParams();
+            if (params.name) {
+                document.getElementById('name').textContent = params.name;
+            }
+            if (params.address) {
+                document.getElementById('address').textContent = params.address;
+            }
+            if (params.product) {
+                document.getElementById('product').textContent = params.product;
+            }
+            if (params.price) {
+                document.getElementById('price').textContent = params.price;
+            }
+            if (params.quantity) {
+                document.getElementById('quantity').textContent = params.quantity;
+            }
+            if (params.payment) {
+                document.getElementById('payment').textContent = params.payment;
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="header">
-        <h1>Struk/Invoice</h1>
+        <h1>Invoice</h1>
     </div>
 
     <div class="content">
         <div class="invoice-item">
-            <h2>Invoice</h2>
-            <p>Nama: <span id="invoiceName"></span></p>
-            <p>Alamat: <span id="invoiceAddress"></span></p>
-            <p>Produk/Jasa: <span id="invoiceProduct"></span></p>
-            <p>Jumlah: <span id="invoiceQuantity"></span></p>
-            <p>Metode Pembayaran: <span id="invoicePayment"></span></p>
+            <h2>Detail Pembelian</h2>
+            <p><strong>Nama:</strong> <span id="name"></span></p>
+            <p><strong>Alamat:</strong> <span id="address"></span></p>
+            <p><strong>Produk:</strong> <span id="product"></span></p>
+            <p><strong>Harga:</strong> <span id="price"></span></p>
+            <p><strong>Jumlah:</strong> <span id="quantity"></span></p>
+            <p><strong>Metode Pembayaran:</strong> <span id="payment"></span></p>
         </div>
     </div>
 

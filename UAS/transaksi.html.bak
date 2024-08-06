@@ -24,20 +24,6 @@
                 document.getElementById('price').value = params.price;
             }
         });
-
-        function handleSubmit(event) {
-            event.preventDefault();
-            const form = document.getElementById('transactionForm');
-            const name = form.name.value;
-            const address = form.address.value;
-            const product = form.product.value;
-            const price = form.price.value;
-            const quantity = form.quantity.value;
-            const payment = form.payment.value;
-            
-            const queryString = `name=${encodeURIComponent(name)}&address=${encodeURIComponent(address)}&product=${encodeURIComponent(product)}&price=${encodeURIComponent(price)}&quantity=${encodeURIComponent(quantity)}&payment=${encodeURIComponent(payment)}`;
-            window.location.href = `invoice.html?${queryString}`;
-        }
     </script>
 </head>
 <body>
@@ -46,7 +32,7 @@
     </div>
 
     <div class="content">
-        <form id="transactionForm" onsubmit="handleSubmit(event)">
+        <form id="transactionForm">
             <label for="name">Nama:</label>
             <input type="text" id="name" name="name" required><br>
 

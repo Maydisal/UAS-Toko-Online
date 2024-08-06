@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Halaman Utama</title>
+    <title>Bagian Utama</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="header">
         <h1>Selamat Datang di Toko Obat Psikologi!</h1>
-        <marquee direction="right">Selamat Datang di Toko Obat Psikologi!</marquee>
     </div>
     
     <div class="menu">
@@ -24,18 +23,18 @@
             <tr><th colspan="2">NAMA PRODUK</th></tr>
             <tr>
                 <td class="produk-item">
-                    <a href="transaksi.html?product=Kapsul&price=50000"><img src="kapsul.png" width="125" height="125" alt="Kapsul"></a>
+                    <a href="transaksi.html?product=Kapsul"><img src="kapsul.png" width="125" height="125" alt="Kapsul"></a>
                 </td>
                 <td class="produk-item">
-                    <a href="transaksi.html?product=Cair&price=60000"><img src="cair.png" width="125" height="125" alt="Cair"></a>
+                    <a href="transaksi.html?product=Cair"><img src="cair.png" width="125" height="125" alt="Cair"></a>
                 </td>
             </tr>
             <tr>
                 <td class="produk-item">
-                    <a href="transaksi.html?product=Pil&price=40000"><img src="pil.png" width="125" height="125" alt="Pil"></a>
+                    <a href="transaksi.html?product=Pil"><img src="pil.png" width="125" height="125" alt="Pil"></a>
                 </td>
                 <td class="produk-item">
-                    <a href="transaksi.html?product=Suplemen&price=70000"><img src="spl.png" width="125" height="125" alt="Suplemen"></a>
+                    <a href="transaksi.html?product=Suplemen"><img src="spl.png" width="125" height="125" alt="Suplemen"></a>
                 </td>
             </tr>
         </table>
